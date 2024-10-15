@@ -295,7 +295,7 @@ plt.gca().yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 plt.plot(x_tmp, estimator, linestyle = styles[1], linewidth = 5, color = 'red')
 plt.hist(work_list, bins = 100, density=True,  color = 'white',edgecolor='blue', linewidth=1.2)
 plt.legend(["K-series", "r histogram"], prop = font1,  frameon=False)
-plt.savefig(my_path + "/r_estimator_Vasichek.jpeg")
+plt.savefig(my_path + "/r_estimator_Vasicek.jpeg")
 
 
 
